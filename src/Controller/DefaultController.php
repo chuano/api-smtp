@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController
 {
     /**
-     * @Route("/")
+     * @Route("/", methods={"GET"})
      */
     public function indexAction()
     {

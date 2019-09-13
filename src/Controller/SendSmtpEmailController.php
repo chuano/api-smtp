@@ -22,7 +22,7 @@ class SendSmtpEmailController
     }
 
     /**
-     * @Route("/send_smtp_email", methods={"POST","GET"})
+     * @Route("/", methods={"POST"})
      */
     public function sendMailAction(Request $request)
     {
