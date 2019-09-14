@@ -1,5 +1,5 @@
 # PHP simple SMTP REST API
-A simple REST API to send e-mails throw your SMTP server.
+A simple REST API to send e-mails through your SMTP server.
 
 ## Why
 In a simple personal project written in javascript, I had the need to send an e-mail with the results.
