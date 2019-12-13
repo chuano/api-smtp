@@ -11,23 +11,8 @@
             "config/routes/annotations.yaml"
         ]
     },
-    "doctrine/cache": {
-        "version": "v1.8.0"
-    },
-    "doctrine/collections": {
-        "version": "v1.6.2"
-    },
-    "doctrine/event-manager": {
-        "version": "v1.0.0"
-    },
     "doctrine/lexer": {
         "version": "1.1.0"
-    },
-    "doctrine/persistence": {
-        "version": "1.1.1"
-    },
-    "doctrine/reflection": {
-        "version": "v1.0.0"
     },
     "egulias/email-validator": {
         "version": "2.1.11"
@@ -43,6 +28,9 @@
         "files": [
             "config/packages/nelmio_cors.yaml"
         ]
+    },
+    "php": {
+        "version": "7.4"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -98,6 +86,9 @@
     },
     "symfony/dotenv": {
         "version": "v4.3.4"
+    },
+    "symfony/error-handler": {
+        "version": "v4.4.1"
     },
     "symfony/event-dispatcher": {
         "version": "v4.3.4"
@@ -197,6 +188,9 @@
             "config/packages/swiftmailer.yaml",
             "config/packages/test/swiftmailer.yaml"
         ]
+    },
+    "symfony/var-dumper": {
+        "version": "v4.4.1"
     },
     "symfony/var-exporter": {
         "version": "v4.3.4"
