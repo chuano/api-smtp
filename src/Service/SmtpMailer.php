@@ -31,11 +31,9 @@ class SmtpMailer
 
     private function createMessage(array $data): Swift_Message
     {
-        $message = (new Swift_Message($data['subject']))
+        return (new Swift_Message($data['subject']))
             ->setBody($data['body'], 'text/html')
             ->setFrom($data['email'])
             ->setTo($data['to']);
-
-        return $message;
     }
 }
